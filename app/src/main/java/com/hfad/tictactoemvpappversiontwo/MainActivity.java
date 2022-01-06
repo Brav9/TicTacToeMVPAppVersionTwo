@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, IContract.IView {
 
     private TextView playerOneScore, playerTwoScore, playerStatus;
     private final Button[] buttons = new Button[9];
